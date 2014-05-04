@@ -1,0 +1,209 @@
+﻿@{
+    Page.Title = "New Garment";
+    Layout = "~/_FormLayout.cshtml";
+}
+
+<div class ="page-header">
+    <h1>Add a Garment</h1>
+</div>
+<div class="col-md-12">
+    <div class="col-md-3">
+        <p><strong>Customer:</strong> "Some Text"</p>
+        <p><strong>Description:</strong>"Some text"</p>
+        <p><strong>Due Date:</strong> ##/##/####</p>        
+    </div>
+</div>
+
+<div class="panel panel-default col-md-9">
+    <div class="panel-header">
+        <h2>Add a Garment</h2>
+    </div>
+    <div class="panel-content">
+        <form>
+            <div class="row">
+              <div class="col-lg-6"><!-- Garment description-->
+                <div class="input-group">
+                    <span class="input-group-addon">Garment Description</span>
+                    <input type="text" class="form-control" />
+                </div>
+              </div><!-- /.col-lg-6 Garment description -->
+
+              <div class="col-lg-6"><!-- Type dropdown Menu-->
+                <div class="input-group">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li>Wedding Dress</li>
+                      <li>Matric Farewell Dress</li>
+                      <li>Formal wear</li>
+                      <li>Work wear</li>
+                      <li>Alterations</li>
+                      <li>Other</li>
+                    </ul>
+                  </div><!-- /btn-group -->
+                  <input type="text" class="form-control">
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 type dropdown menu-->
+            </div><!-- /.row -->
+            
+            <div class="page-header"></div>
+
+            <!--Measurements -->
+            <div class="row"> <!--measurements row 1 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Bust</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Across back</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->                
+            </div>
+
+            <div class="row"> <!--measurements row 2 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Underbust</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Shoulder Length</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->                
+            </div>
+
+            <div class="row"> <!--measurements row 3 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Waist</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Skirt Length</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                
+            </div>
+
+            <div class="row"> <!--measurements row 4 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Hip Upper</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Sleeve Length</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                
+            </div>
+
+            <div class="row"> <!--measurements row 5 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Hip Lower</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Sleeve Width Upper</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                
+            </div>
+
+            <div class="row"><!--measurements row 6 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Bustpoint</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Sleeve Width Elbow</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                
+            </div>
+
+            <div class="row"> <!--measurements row 7 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Front Length</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Sleeve Width Wrist</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                
+            </div>
+
+            <div class="row"> <!--measurements row 8 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Shoulder - Underbust</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Pants Length</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                
+            </div>
+
+            <div class="row"> <!--measurements row 9 -->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Back Length</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Jacket Length</span>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div><!--col-md-6-->
+                
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="input-group">
+                        <button type="submit" class="btn btn-lg btn-success">Save</button>
+                        <a href="~/OrderShow"><button type="button" class="btn btn-lg btn-danger ">Cancel</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+

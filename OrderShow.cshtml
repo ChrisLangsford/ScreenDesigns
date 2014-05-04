@@ -1,0 +1,58 @@
+﻿@{
+    Page.Title = "Show Order";
+    Layout = "~/_SiteLayout.cshtml";
+}
+
+<div class="page-header">
+    <h1>View Order</h1>
+</div>
+<div class="col-md-12">
+    <div class="col-md-3">
+        <p><strong>Description:</strong>"Some text"</p>
+        <p><strong>Due Date:</strong> ##/##/####</p>
+        <p><strong>Customer:</strong> "Some Text"</p>
+    </div>
+</div>
+<div>
+    <p>
+        <a href="~/GarmentNew"><button type="button" class="btn btn-success">Add a Garment</button></a>
+        <button type="button" class="btn btn-default">Generate Quote</button>
+        <button type="button" class="btn btn-default">Generate Invoice</button>
+    </p>
+</div>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="col-md-6">Garment Description</th>
+                <th class="2">Type</th>
+                <th class="col-md-4">Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <p>
+                        <a href="~/GarmentShow"><button type="button" class="btn btn-sm btn-primary">Measurements</button></a>
+                        <button type="button" class="btn btn-sm btn-warning">Edit</button>
+                        <button type="button" class="btn btn-sm btn-default">Costing</button>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <p>
+                        <button type="button" class="btn btn-sm btn-primary">Measurements</button>
+                        <button type="button" class="btn btn-sm btn-warning">Edit</button>
+                        <button type="button" class="btn btn-sm btn-default">Costing</button>
+                    </p>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

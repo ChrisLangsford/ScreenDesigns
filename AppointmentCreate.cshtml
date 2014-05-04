@@ -1,0 +1,46 @@
+﻿@{
+    Page.Title = "Create Appointment";
+    Layout = "~/_FormLayout.cshtml";
+}
+
+<div class="page-header">
+    <h1>Create Appointment</h1>
+</div>
+<div class="col-md-6">
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">New Appointment</h3>
+        </div>
+        <div class="panel-body">
+            <form>
+                <table class="table">
+                    <tr>
+                        <td><p><strong>Customer: </strong></p></td>
+                        <td><input type="text" class="col-md-12" /></td>
+                    </tr>  
+                    <tr>
+                        <td><p><strong>Date and Time: </strong></p></td>
+                        <td><input type="datetime-local" class="col-md-12" /></td>
+                    </tr>
+                    <tr>
+                        <td><p><strong>Description: </strong></p></td>
+                        <td><input type="text" class="col-md-12" /></td>
+                    </tr>     
+                    <tr>
+                        <td><p><strong>Follow Up?</strong></p></td>
+                        <td><input type="checkbox" /></td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            
+                       </td>
+                    </tr>            
+                </table>
+                <p>
+                    <a href="~/AppointmentIndex"><button type="button" class="btn btn-lg btn-success">Save</button></a>
+                    <a href="~/AppointmentIndex"><button type="button" class="btn btn-lg btn-danger">Cancel</button></a>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
